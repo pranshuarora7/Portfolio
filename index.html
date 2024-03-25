@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="Education.css" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -50,6 +51,13 @@
             font-size: 1.25rem;
         }
 
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 2.5px;
+            margin: 10px 125px;
+        }
+
         .left {
             font-size: 44px;
             font-weight: 600;
@@ -59,7 +67,7 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
-            margin: 80px 0;
+            margin: 125px 0;
             padding: 0 20px;
         }
 
@@ -100,11 +108,25 @@
         }
 
         .rightSection img {
-            width: 70%;
+            width: 85%;
         }
 
         .purple {
             color: rgb(179, 108, 247);
+        }
+
+        .text-grey {
+            color: rgb(170, 163, 163);
+            font-size: 1.01rem;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: 20px auto;
+        }
+
+        .secondSection h1 {
+            font-size: 1.8rem;
         }
     </style>
 </head>
@@ -129,13 +151,40 @@
             <div class="leftSection">
                 <h1>Hey! This is <span class="purple">Pranshu Arora.</span></h1>
                 <p><span class="caption">Just another curious AIML Student !!</span></p>
-                <p class="interests">Areas of Interests:</p>
+                <p class="interests">Areas of Interest:</p>
                 <span id="element"></span>
             </div>
             <div class="rightSection">
-                <img src="BG.png" alt="Background Image">
+                <img src="Images/BG.png" alt="Background Image">
             </div>
         </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-grey"> My Learnings so far......</span>
+            <h1>Education and Qualification</h1>
+            <section class="education-section">
+                <div class="item" style="--accent-color:#41516C">
+                    <div class="year">2018</div>
+                    <div class="qualification">High School</div>
+                    <div class="institution">R.A.N. Public School, CBSE</div>
+                    <div class="details">Percentage: 94.00</div>
+                </div>
+                <div class="item" style="--accent-color:#FBCA3E">
+                    <div class="year">2020</div>
+                    <div class="qualification">Senior Secondary</div>
+                    <div class="institution">R.A.N. Public School, CBSE</div>
+                    <div class="details">Percentage: 92.00</div>
+                </div>
+                <div class="item" style="--accent-color:#E24A68">
+                    <div class="year">2021-2025</div>
+                    <div class="qualification">B.E in Artificial Intelligence and Machine Learning</div>
+                    <div class="institution">BMS College of Engineering</div>
+                    <div class="details">CGPA: 8.00</div>
+                </div>
+            </section>
+        </section>
+        <hr>
+
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <script>
