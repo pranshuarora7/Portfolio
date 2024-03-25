@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(16, 112, 238);
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(26, 112, 178);
+    padding: 0 150px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 40px;
+    font-size: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(54, 0, 250);
+    font-size: 1.25rem;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 2.5px;
+    margin: 10px 125px;
+}
+
+.left {
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 125px 0;
+    padding: 0 20px;
+}
+
+.leftSection {
+    width: 50%;
+    text-align: center;
+}
+
+.leftSection .buttons {
+    padding: 20px;
+}
+
+.leftSection .btn {
+    margin-right: 7px;
+    padding: 10px;
+    background: #47437e;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.leftSection h1 {
+    font-size: 50px;
+    margin-bottom: 1px;
+}
+
+.leftSection p {
+    font-size: 45px;
+    line-height: 1.3;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.leftSection .caption {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.leftSection .interests {
+    font-size: 25px;
+    line-height: 1.1;
+    margin-bottom: -1px;
+
+}
+
+#element {
+    font-size: 30px;
+    font-style: italic;
+    display: block;
+    color: rgb(179, 108, 247);
+}
+
+.rightSection img {
+    width: 85%;
+}
+
+.purple {
+    color: rgb(179, 108, 247);
+}
+
+.text-grey {
+    color: rgb(170, 163, 163);
+    font-size: 1.01rem;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: 20px auto;
+}
+
+.secondSection h1 {
+    font-size: 1.8rem;
+}
+
+footer {
+    background-color: rgb(26, 112, 178);
+    height: 200px;
+}
+
+.footer {
+    display: flex;
+    margin-top: 100px;
+    padding: 50px 50px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 200px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: rgb(168, 168, 168);
+}
